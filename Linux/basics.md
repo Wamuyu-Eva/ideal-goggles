@@ -33,7 +33,6 @@ Print effective userid
 ``` whoami [option]```
 
     whoami -L, --logical: Gives the logical path
-    pwd -P, --physical: Provides the physical path - shows the actual path without following symbolic links.
     whoami --help: shows how to use the pwd command.
     whoami -version
 
@@ -52,5 +51,39 @@ Change Directory
 
 #### Usage of mkdir
 ``` mkdir [options] directory_name```
+``` mkdir [options] ```
+
+    mkdir -p [filepath/filename]: Allows creating parent directories. If the directories exists, no error is thrown.
+    mkdir --help: Offer help on usage of the command.
+    mkdir -m=[set permisions] [filename]: Create directory and define permissions. 
+
+### clear
+Clears the terminal screen
+
+
+### touch
+Create files which are blank or empty
+``` touch [filename]```
+
+### ls
+List directories
+``` ls ```
+``` ls [directory-to-list-content]```
+
+### cp
+Copy files and directories from one location to another
+``` cp [options] source destination ```
+
+    cp -r [source] [destination] : Copy directories recursively. Necessary when copying directories and their contents.
+    
+    
+
+
+    
+ 
+
+    
+    
+
 
    
