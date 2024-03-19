@@ -7,8 +7,8 @@ Displays the user manual of commands that one can run on the terminal.
 ``` man [option] [command] ```
 
     man [name-of-the-command]
-    Explains more on the usage of the command. 
-    The explanation includes the name, synposis, description, author, copyright
+    man man : Explains more on the usage of the command. 
+              The explanation includes the name, synposis, description, author, copyright
 
     man [with options]
     man -k [keyword]: Search for manual pages that contain that key word.
