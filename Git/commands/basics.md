@@ -1,7 +1,7 @@
 ### Git Basics
 #### Initializing Git Repository
 ```
-git init
+git init   #[Creates a folder called .git which has all information that is required for version control. It has these files :hooks,info,logs,objects and refs, the following files HEAD, index, description and config]
 ```
 
 #### Adding remote origin
@@ -51,4 +51,7 @@ git reset HEAD^ #[Resets the current branch to the most recent commit]
 #### Undo last commit and the changes made
 
 
-#### Remove Git
+#### Remove Git\Uninitialize Git
+```
+rm -rf .git
+```
